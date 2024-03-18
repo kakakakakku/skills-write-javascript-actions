@@ -11,5 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - run: npm i request-promise
       - name: ha-ha
         uses: ./.github/actions/joke-action
